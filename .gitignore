@@ -1,0 +1,38 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+artifacts/
+
+# Screenshots produced by running the app
+*.png
+
+# IDE / editor
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Test results / coverage
+TestResults/
+[Tt]est[Rr]esult*/
+coverage*.xml
+*.coverage
+
+# Local overrides (keep secrets out of the repo)
+appsettings.*.local.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db
